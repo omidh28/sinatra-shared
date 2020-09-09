@@ -4,6 +4,7 @@ export enum TeamPermission {
   WRITE_STORAGE = 'w_storage',
   READ_CUSTOMER = 'r_customer',
   WRITE_CUSTOMER = 'w_customer',
+  MANAGE_PROMOTION = 'm_promotion',
 }
 
 export function getAllTeamPermissions(): TeamPermission[] {
