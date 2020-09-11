@@ -8,6 +8,7 @@ export interface TwilioSettings {
 
 export interface KavehSettings {
   api_key: string;
+  shared: boolean;
 }
 
 export interface SmsSettings {
