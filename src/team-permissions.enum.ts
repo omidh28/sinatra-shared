@@ -4,6 +4,8 @@ export enum TeamPermission {
   WRITE_STORAGE = 'w_storage',
   READ_CUSTOMER = 'r_customer',
   WRITE_CUSTOMER = 'w_customer',
+  READ_ORDER = 'r_order',
+  WRITE_ORDER = 'w_order',
   MANAGE_PROMOTION = 'm_promotion',
 }
 
