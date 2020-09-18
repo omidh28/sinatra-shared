@@ -1,4 +1,4 @@
 export type FeedbackPayload = {
   readonly score: number;
-  readonly partialOrder: string;
+  readonly order: string;
 }
