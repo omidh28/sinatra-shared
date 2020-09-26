@@ -14,10 +14,8 @@ export interface KavehSettings {
 export interface SmsSettings {
   receipt_enabled: boolean;
   feedback_enabled: boolean;
-  reminder_enabled: boolean;
   receipt_text?: string;
   feedback_text?: string;
-  reminder_text?: string;
   provider?: SmsProvider;
   twilio_settings?: TwilioSettings;
   kaveh_settings?: KavehSettings;
