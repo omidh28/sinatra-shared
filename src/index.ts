@@ -4,3 +4,4 @@ export * from './sms-provider.enum';
 export * from './feedback.payload';
 export * from './force-update.middleware';
 export * from './invoice.payload';
+export * from './session-user.interface';
