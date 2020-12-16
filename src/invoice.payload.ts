@@ -6,4 +6,6 @@ export type InvoicePayload = {
   readonly models: string[];
   readonly advancePay: number;
   readonly id: string;
+  readonly submitDate: string;
+  readonly dueDate: string;
 }
