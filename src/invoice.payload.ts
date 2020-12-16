@@ -5,4 +5,5 @@ export type InvoicePayload = {
   readonly quantity: string;
   readonly models: string[];
   readonly advancePay: number;
+  readonly id: string;
 }
