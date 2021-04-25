@@ -11,6 +11,11 @@ export interface KavehSettings {
   shared: boolean;
 }
 
+export interface MemberDetials {
+  id: number;
+  phone: string;
+}
+
 export interface SmsSettings {
   receipt_enabled: boolean;
   feedback_enabled: boolean;
@@ -23,4 +28,5 @@ export interface SmsSettings {
 
 export interface TeamSettings {
   sms: SmsSettings;
+  members?: MemberDetials[];
 }
