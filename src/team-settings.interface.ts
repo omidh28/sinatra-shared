@@ -28,5 +28,5 @@ export interface SmsSettings {
 
 export interface TeamSettings {
   sms: SmsSettings;
-  members?: MemberDetials[];
+  members: MemberDetials[];
 }
