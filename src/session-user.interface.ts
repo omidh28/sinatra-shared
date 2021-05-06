@@ -1,10 +1,13 @@
-import { TeamPermission } from "./team-permissions.enum";
+import { UserRole } from "./user-role.enum";
 
 export interface SessionUser {
   phone: string;
   dataLocation: string;
-  teamPermissions?: TeamPermission[],
   country: string;
   teamUid?: string;
-  allTeamsUid: string[];
+  roles?: UserRole,
+  teams: {
+    uuid: string;
+    roles: UserRole,
+  };
 }

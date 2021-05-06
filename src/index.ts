@@ -8,3 +8,4 @@ export * from './dessert-order-invoice.payload';
 export * from './session-user.interface';
 export * from './is-cake-invoice.predicate';
 export * from './dessert-item-measure.enum';
+export * from './user-role.enum';
