@@ -5,9 +5,9 @@ export interface SessionUser {
   dataLocation: string;
   country: string;
   teamUid?: string;
-  roles?: UserRole,
+  role?: UserRole,
   teams: Array<{
     uuid: string;
-    roles: UserRole,
+    role: UserRole,
   }>;
 }
