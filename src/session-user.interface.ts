@@ -6,8 +6,8 @@ export interface SessionUser {
   country: string;
   teamUid?: string;
   roles?: UserRole,
-  teams: {
+  teams: Array<{
     uuid: string;
     roles: UserRole,
-  };
+  }>;
 }
